@@ -1,0 +1,28 @@
+Loudness - Use EBU R128 Loudness Normalization with ffmpeg
+
+type ``vid loudness --help`` to get help
+
+CLI Options:
+Usage:
+  vid loudness [options] input_file
+
+Options:
+  input: Path to the input video file.
+  -o: Path to save the output video with the shake effect.
+  -l: Target integrated loudness in LUFS (default: -16)
+  -tp: True peak limit in dB (default: -1.5)
+  --lra: Loudness range target (default: 11)
+  -sr: Audio sample rate (default: 44.1k)
+
+
+Examples:
+  1. vid loudness --help`` to get help
+
+
+Examples:
+  1. vid loudness --help to get help
+
+
+Examples:
+  1. vid loudness input.mp4 -o output.mp4
+  2. vid loudness input.mp4 --help
